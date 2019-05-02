@@ -5,6 +5,11 @@
 	<groupId>com.github</groupId>
 	<artifactId>pinyin-program</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/com.miglayout/miglayout-swing -->
 		<dependency>
@@ -12,7 +17,7 @@
 			<artifactId>miglayout-swing</artifactId>
 			<version>5.2</version>
 		</dependency>
-
+		<!-- https://github.com/heimuheimu/util-pinyin -->
 		<dependency>
 			<groupId>com.heimuheimu</groupId>
 			<artifactId>util-pinyin</artifactId>
